@@ -1,0 +1,1 @@
+# Mi Flora Tasmota 2 Homeassistant Discovery Messenger
