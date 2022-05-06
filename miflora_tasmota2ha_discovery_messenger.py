@@ -118,7 +118,7 @@ payload['name'] = f'Mi Flora {mac_pretty} Battery'
 payload['val_tpl'] ='{{value_json.Battery}}'
 payload['unit_of_meas'] = '%'
 payload['device_class'] = 'battery'
-payload['expire_after'] = '86400'
+payload['expire_after'] = '129600'
 payload['dev'] = {'ids' : [f'miflora_{mac}']}
 mqtt_client.publish(topic, json.dumps(payload), 1, retain=True)
 print(f'Published dicovery message: Battery')
