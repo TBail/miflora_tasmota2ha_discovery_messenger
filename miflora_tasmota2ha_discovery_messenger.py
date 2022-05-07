@@ -56,7 +56,7 @@ payload['dev'] = {
         'ids' : [f'miflora_{mac}'],
         'mf' : 'Xiaomi',
         'name' : f'Mi Flora {mac_pretty}',
-        'mdl' : 'HHCCJCY01'}
+        'mdl' : 'HHCCJCY01HHCC'}
 mqtt_client.publish(topic, json.dumps(payload), 1, retain=True)
 print(f'Published dicovery message: Temperature')
 
